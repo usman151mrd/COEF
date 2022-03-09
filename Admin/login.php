@@ -14,7 +14,7 @@ session_start();
                $email =  valid($_POST['form-username']) ;
                $pass = valid($_POST['form-password']);
                $str = password($pass);
-               $sql1 = "SELECT * FROM `Admin` WHERE `add_email`='$email'";
+               $sql1 = "SELECT * FROM `admin` WHERE `add_email`='$email'";
                $mydb->setQuery($sql1);
                $result = $mydb->selection();
                $row = $result->fetch();

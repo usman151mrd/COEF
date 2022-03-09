@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
     /*
         Fullscreen background
 		assets/img/backgrounds/1.jpg
-		Social/img/coms.png
+		social/img/coms.png
     */
     $.backstretch("assets/img/backgrounds/1.jpg");
     

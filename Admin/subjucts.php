@@ -5,16 +5,16 @@
    <title>home</title>
 
     <!-- Bootstrap CSS -->    
-    <link href="../Social/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../social/css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
-    <link href="../Social/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../social/css/bootstrap-theme.css" rel="stylesheet">
     <!--external css-->
     <!-- font icon -->
-    <link href="../Social/css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="../Social/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../social/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="../social/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom styles -->
-    <link href="../Social/css/style.css" rel="stylesheet">
-    <link href="../Social/css/style-responsive.css" rel="stylesheet" />
+    <link href="../social/css/style.css" rel="stylesheet">
+    <link href="../social/css/style-responsive.css" rel="stylesheet" />
   </head>
     <body>
   <!-- container section start -->
@@ -56,14 +56,14 @@
 
     <!-- javascripts -->
     
-	 <script src="../Social/js/jquery.js"></script>
-    <script src="../Social/js/bootstrap.min.js"></script>
+	 <script src="../social/js/jquery.js"></script>
+    <script src="../social/js/bootstrap.min.js"></script>
     <!-- nice scroll -->
-    <script src="../Social/js/jquery.scrollTo.min.js"></script>
-    <script src="../Social/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="../social/js/jquery.scrollTo.min.js"></script>
+    <script src="../social/js/jquery.nicescroll.js" type="text/javascript"></script>
     <!-- gritter -->
     <!--custome script for all page-->
-    <script src="../Social/js/scripts.js"></script>
+    <script src="../social/js/scripts.js"></script>
 
    
 

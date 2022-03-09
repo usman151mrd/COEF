@@ -8,23 +8,23 @@
 <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
   <!--external css-->
 <!-- font icon -->
-<link href="../Social/css/elegant-icons-style.css" rel="stylesheet" />
-<link href="../Social/css/font-awesome.min.css" rel="stylesheet" />
+<link href="../social/css/elegant-icons-style.css" rel="stylesheet" />
+<link href="../social/css/font-awesome.min.css" rel="stylesheet" />
 <!-- Custom styles -->
-<link href="../Social/css/style.css" rel="stylesheet">
-<link href="../Social/css/style-responsive.css" rel="stylesheet" />
+<link href="../social/css/style.css" rel="stylesheet">
+<link href="../social/css/style-responsive.css" rel="stylesheet" />
 </head>
 <body>
   <section id="container" class="">
       <!--header start-->
       <?php    
-	  include '../Social/header.php';
+	  include '../social/header.php';
 	  ?>      
       <!--header end-->
 
       <!--sidebar start-->
        <?php    
-	  include '../Social/aside.php';
+	  include '../social/aside.php';
 	  ?>  
       <!--sidebar end-->
          <!--main content start-->
@@ -46,7 +46,7 @@
 				<!-- Modal -->
               
 					<div class="list-group">
-					    <a href="../Social/gallery.php?id=<?php echo $sid;  ?>" class="list-group-item">
+					    <a href="../social/gallery.php?id=<?php echo $sid;  ?>" class="list-group-item">
 					      <span class="badge pull-right">
 					      	<?php 
 								echo $pc->row();
@@ -125,17 +125,17 @@ $full = $us->fullname($sid);
   </section>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="../Social/js/jquery.js"></script>
-    <script src="../Social/js/bootstrap.min.js"></script>
+    <script src="../social/js/jquery.js"></script>
+    <script src="../social/js/bootstrap.min.js"></script>
     <!-- nice scroll -->
-    <script src="../Social/js/jquery.scrollTo.min.js"></script>
-    <script src="../Social/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="../social/js/jquery.scrollTo.min.js"></script>
+    <script src="../social/js/jquery.nicescroll.js" type="text/javascript"></script>
     <!-- gritter -->
    
     <!-- custom gritter script for this page only-->
-    <script src="../Social/js/gritter.js" type="text/javascript"></script>
+    <script src="../social/js/gritter.js" type="text/javascript"></script>
     <!--custome script for all page-->
-    <script src="../Social/js/scripts.js"></script>
+    <script src="../social/js/scripts.js"></script>
 
 	 <script>
 		$(document).ready(function(){

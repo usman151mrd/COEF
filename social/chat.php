@@ -59,7 +59,7 @@
                       </li> ';
 					  }
 					  }
-					  $sql = "Update Message set status='seen' where ((to_id=$mid and from_id=$sid) or (from_id=$mid and to_id=$sid))";
+					  $sql = "Update message set status='seen' where ((to_id=$mid and from_id=$sid) or (from_id=$mid and to_id=$sid))";
 					  $mydb->setQuery($sql);
 					  $mydb->update();
 ?>

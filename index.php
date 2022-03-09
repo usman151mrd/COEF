@@ -42,7 +42,7 @@ and open the template in the editor.
                         		</div>
                         		<div class="form-top-right">
                         			<!--<i class="fa fa-key"></i> -->
-                                    <img src="Social/img/coms.png" width="50" height="50" class="img-circle">
+                                    <img src="social/img/coms.png" width="50" height="50" class="img-circle">
                         		</div>
                                     <div style="color: red;font-size: 18px"><span class="text-center"><?php echo $err;   ?></span></div>
                             </div>

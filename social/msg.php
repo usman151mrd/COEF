@@ -90,7 +90,7 @@
 				   
 				  
 				   // $myq = "SELECT DISTINCT with_id FROM $uname ORDER BY Msg_ID DESC ";
-				    $myq = "SELECT DISTINCT with_id FROM message where with_id!=$ssid  ORDER BY Msg_ID DESC ";
+				    $myq = "SELECT DISTINCT with_id, Msg_ID FROM message where with_id!=$ssid  ORDER BY Msg_ID DESC ";
 					$mydb->setQuery($myq);
 					$res=$mydb->selection();
 					if($mydb->rowCount()==0)
@@ -215,7 +215,7 @@ else
 				  $mydb->setQuery($sql);
 				  $r =  $mydb->selection();
 				  $c1 = $mydb->rowcount();
-				   $sql = "SELECT * FROM `registration";
+				   $sql = "SELECT * FROM `registration`";
 				  $mydb->setQuery($sql);
 				  $r =  $mydb->selection();
 				  $c2 = $mydb->rowcount();
