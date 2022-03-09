@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+ul.msg-menu {
+
+    margin-top: 0px;
+	margin-left:-40px;
+
+}
+ul.msg-menu li{
+
+    line-height: 20px !important;
+}
+
+
+ul.msg-menu li a span{
+
+    display: inline-block;
+
+}
+ul.msg-menu li a.subject
+{
+	font-size:12px;
+	color:#EC1417;
+}
+
+
+ul.msg-menu li a{
+
+    color:#8C8C8C;
+
+    text-decoration: none;
+
+    display: block;
+
+    padding: 15px 0 15px 10px;
+
+    font-size: 16px;
+
+    font-weight: 300;
+
+    outline: none;
+
+    -webkit-transition: all 0.3s ease;
+
+    -moz-transition: all 0.3s ease;
+
+    -o-transition: all 0.3s ease;
+
+    -ms-transition: all 0.3s ease;
+
+    transition: all 0.3s ease;
+
+    border-right: 1px solid #D7D7D7;
+
+    border-bottom: 1px solid #D7D7D7;
+
+}
+
+/*ul.msg-menu li a i{
+
+    position: relative;
+
+    top: 2px;
+
+}*/
+
+ul.msg-menu li.active a, ul.msg-menu li a:hover, ul.msg-menu li a:focus {
+
+    background: #2e3b46;
+
+    color: #fff;
+
+    display: block;
+
+    /*border-radius: 4px;
+
+    -webkit-border-radius: 4px;*/
+
+    -webkit-transition: all 0.3s ease;
+
+    -moz-transition: all 0.3s ease;
+
+    -o-transition: all 0.3s ease;
+
+    -ms-transition: all 0.3s ease;
+
+    transition: all 0.3s ease;        
+
+}
+
+ul.msg-menu li a:hover, ul.msg-menu li a:focus {
+
+    border-bottom: 1px solid #d0d8df;
+
+}
+
+/*ul.msg-menu li.active a,*/ ul.msg-menu .sub-menu li.active a{
+
+    border-bottom: 1px solid #d0d8df;   
+
+}
+
+/*  side menu inbox start from here */
+ul.msg-menu li a .photo1 img {
+
+    border-radius: 2px 2px 2px 2px;
+
+    float: left;
+
+    height: 40px;
+
+    margin-right: 4px;
+
+    width: 40px;
+
+}
+
+
+
+ul.msg-menu li a .photo1 .subject1 {
+
+    display: block;
+
+}
+
+
+
+ul.msg-menu li a .from1 {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+
+
+ul.msg-menu li a .subject1 .time1 {
+
+    font-size: 11px;
+
+    font-style: italic;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    right: 20px;
+
+}
+
+
+
+ul.msg-menu li a .message1 {
+
+    display: block !important;
+
+    font-size: 11px;
+
+}

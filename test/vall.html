@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function reg()
+{
+	var reg = document.getElementById('roll').value;
+	var phn=/^[0-9]{1,3}$/;
+    if(reg.search(phn)==-1)
+    {
+	 alert("enter correct reg no");
+	 document.getElementById('regs').focus();
+	 return false;
+	 }
+}
+</script>
+</head>
+<body>
+<form onSubmit="return valid();">
+<input type="text" id="regs">
+</form>
+</body>
+</html>
